@@ -1,0 +1,30 @@
+header {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  background-color: var(--red);
+  color: var(--white);
+
+}
+
+ .header__copy {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.003em;
+}
+.navcontainer {
+  align-items: center;
+  padding: 36px 104px;
+  display: grid;
+  grid-template-columns: 190px 1fr 1fr;
+}
+.logo {
+  color: var(--white);
+  text-decoration: none;
+  width: max-content;
+}

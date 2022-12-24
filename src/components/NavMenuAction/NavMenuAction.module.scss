@@ -1,0 +1,19 @@
+@use '../../mixins.scss' as *;
+.navmenuaction {
+  width: 230px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: end;
+  gap: 32px;
+  align-items: center;
+  margin-left: auto;
+
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: var(--light-red);
+  @include rounded();
+}
+
