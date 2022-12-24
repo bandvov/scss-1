@@ -1,22 +1,23 @@
 export const HEADER_MENU_ITEMS = [
   {
     title: "Home",
-    url: "/1"
+    url: "/"
   },
   {
     title: "Explore",
-    url: "/2"
+    url: "/1"
   },
   {
     title: "Showroom",
-    url: "/3"
+    url: "/2"
   },
   {
     title: "Credit Simulation",
-    url: "/4"
+    url: "/3"
   },
   {
     title: "Contact Us",
-    url: "/5"
+    url: "/4"
   },
 ]
+
