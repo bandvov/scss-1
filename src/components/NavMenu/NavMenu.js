@@ -14,7 +14,7 @@ export default function NavMenu() {
 
                 to={url}
                 className={({ isActive }) =>
-                  isActive ? styles.menu__item__active : undefined
+                  isActive ? styles.menu__item__active : styles.menu__item__notactive
                 }
               >
                 {title}
@@ -26,7 +26,7 @@ export default function NavMenu() {
 
             to={'/5'}
             className={({ isActive }) =>
-              isActive ? styles.menu__item__active : undefined
+              isActive ? styles.menu__item__active : styles.menu__item__notactive
             }
           >
             Page
