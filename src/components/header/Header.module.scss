@@ -1,3 +1,5 @@
+@use '../../mixins.scss' as *;
+
 header {
   border: 1px solid red;
   display: grid;
@@ -19,7 +21,7 @@ header {
 }
 .navcontainer {
   align-items: center;
-  padding: 36px 104px;
+  padding: 36px 104px 0;
   display: grid;
   grid-template-columns: 190px 1fr 1fr;
 }
@@ -27,4 +29,13 @@ header {
   color: var(--white);
   text-decoration: none;
   width: max-content;
+}
+.header__copy {
+  margin: 124px 0 120px;
+ @include setFont();
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.003em;
 }

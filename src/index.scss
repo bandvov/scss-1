@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-gray);
 }
 
 code {
@@ -18,8 +19,10 @@ code {
  --black: #000000;
  --black-1: #11142D;
  --gray: #92929D;
+ --gray-2: #E2E2EA;
  --light-gray:  #F7F7FC;
  --light-red: #FDE5E6;
  --standard-border-radius: 8px;
+
 }
 

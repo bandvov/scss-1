@@ -1,3 +1,5 @@
+@use '../../mixins.scss' as *;
+
 .menulist {
   padding: 0;
   list-style: none;
@@ -22,8 +24,7 @@
 }
 .menu__item a { 
   text-decoration: none; 
-  font-family: 'Mulish';
-  font-style: normal;
+  @include setFont();
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
