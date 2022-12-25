@@ -1,0 +1,25 @@
+@use '../../mixins.scss' as *;
+
+.title {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 104px 56px;
+  gap:10px;
+
+}
+.title_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.title__item {
+  @include setFont();
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: var(--black-1);
+}
+.title__item__price {
+  color: var(--red-1);
+  text-align: end;
+}
