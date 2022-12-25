@@ -1,0 +1,26 @@
+@use '../../mixins.scss' as *;
+
+.special__offer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color:var(--red);
+  padding: 170px 90px 130px;
+  justify-content: center;
+  border-radius: 8px;
+}
+.special__offer h2,h3 {
+  margin: 0;
+  color: var(--white);
+  @include setFont();
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+.special__offer h3 {
+  margin: 24px 0 40px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
