@@ -5,3 +5,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+@mixin  setFont {
+  font-family: 'Mulish';
+  font-style: normal;
+}
