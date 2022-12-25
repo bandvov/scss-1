@@ -1,0 +1,29 @@
+.specification__list__item {
+  padding: 16px 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns:  auto 1fr auto;
+  align-items: center;
+}
+.specification__list__item__underscored {
+  border-bottom: 1px solid #E1E1E1;
+}
+.specification__list__item__name {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;  
+  letter-spacing: 0.005em;  
+  color: var(--gray);
+}
+.specification__list__item__value {
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+text-align: right;
+letter-spacing: 0.005em;
+color: #11142D;
+}
