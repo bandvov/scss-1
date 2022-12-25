@@ -1,0 +1,20 @@
+.mainphoto {
+  display: grid;
+  grid-template-columns: [start] 1fr 1fr 1fr[end];
+  grid-template-rows: 2fr 1fr;
+  gap: 8px;
+}
+
+.bigphoto,
+.smallphoto {
+  background-color: var(--gray-2);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.bigphoto {
+  height: 560px;
+  grid-column: start / end;
+}
