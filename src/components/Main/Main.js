@@ -6,6 +6,7 @@ import styles from './Main.module.scss'
 import { SPECIFICATION_ITEMS } from '../../constants'
 import SpecificationListItem from '../SpecificationListItem/SpecificationListItem'
 import SpecificationImage from '../SpecificationImage/SpecificationImage'
+import ContactDealer from '../ContactDealer/ContactDealer'
 
 export default function Main() {
   return (
@@ -41,7 +42,6 @@ export default function Main() {
           }}>
             {SPECIFICATION_ITEMS.map((item, index) => {
               const withUnderscore = index > 8
-              console.log(withUnderscore);
               return <SpecificationListItem
                 withUnderscore={withUnderscore}
                 image={<SpecificationImage />}
@@ -50,9 +50,12 @@ export default function Main() {
           </ul>
         </Section>
       </section>
-      <div style={{ border: '1px solid red' }}>
-        <SpecialOffer />
+      <div className={styles.side__content} >
+        <div>
+          <SpecialOffer />
+        </div>
+        <ContactDealer />
       </div>
-    </main>
+    </main >
   )
 }

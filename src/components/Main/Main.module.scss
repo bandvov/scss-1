@@ -9,19 +9,25 @@
 }
 
 .main__content {
-  border:1px solid red;
 & video {
   background: var(--gray-2);
-  border-radius: 8px;
   width: 100%;
   height: 440px;
   object-fit: cover;
   margin-top: 56px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+  border-radius:var(--standard-border-radius);
+  -webkit-border-radius:var(--standard-border-radius);
+  -moz-border-radius:var(--standard-border-radius);
+  -ms-border-radius:var(--standard-border-radius);
+  -o-border-radius:var(--standard-border-radius);
 }
+}
+.side__content {
+  border: 1px solid green;
+  display: grid;
+  gap: 16px;
+  grid-template-rows: auto 1fr  auto;
+  align-items: start;
 }
 
 .copy__section h2,
@@ -31,7 +37,7 @@
   font-size: 31px;
   line-height: 120%;
   letter-spacing: 0.005em;
-  color: #333333;
+  color: var(--gray-3)
 }
 
 .copy__section span {

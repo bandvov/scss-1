@@ -4,9 +4,9 @@ button {
   padding: 14px 24px;
   border: none;
   white-space: nowrap;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+  border-radius: var(--standard-border-radius);
+  -webkit-border-radius: var(--standard-border-radius);
+  -moz-border-radius: var(--standard-border-radius);
+  -ms-border-radius: var(--standard-border-radius);
+  -o-border-radius: var(--standard-border-radius);
 }

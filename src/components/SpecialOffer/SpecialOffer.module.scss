@@ -6,7 +6,11 @@
   background-color:var(--red);
   padding: 170px 90px 130px;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: var(--standard-border-radius);
+  -webkit-border-radius: var(--standard-border-radius);
+  -moz-border-radius: var(--standard-border-radius);
+  -ms-border-radius: var(--standard-border-radius);
+  -o-border-radius: var(--standard-border-radius);
 }
 .special__offer h2,h3 {
   margin: 0;
