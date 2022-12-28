@@ -7,6 +7,7 @@ import { SPECIFICATION_ITEMS } from '../../constants'
 import SpecificationListItem from '../SpecificationListItem/SpecificationListItem'
 import SpecificationImage from '../SpecificationImage/SpecificationImage'
 import ContactDealer from '../ContactDealer/ContactDealer'
+import CustomerAdvisor from '../CustomerAdvisor/CustomerAdvisor'
 
 export default function Main() {
   return (
@@ -51,10 +52,9 @@ export default function Main() {
         </Section>
       </section>
       <div className={styles.side__content} >
-        <div>
-          <SpecialOffer />
-        </div>
+        <SpecialOffer />
         <ContactDealer />
+        <CustomerAdvisor />
       </div>
     </main >
   )
