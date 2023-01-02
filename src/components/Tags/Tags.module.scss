@@ -1,0 +1,24 @@
+.tags {
+  padding: 48px 48px 75px;
+  background-color: #FFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.tags h2 {
+  margin: 0 0 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+.tags__list {
+  margin: 0;
+  padding: 0;
+  gap:24px;
+}

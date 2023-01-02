@@ -9,6 +9,7 @@ import SpecificationImage from '../SpecificationImage/SpecificationImage'
 import ContactDealer from '../ContactDealer/ContactDealer'
 import CustomerAdvisor from '../CustomerAdvisor/CustomerAdvisor'
 import FeaturedCars from '../FeaturedCars/FeaturedCars'
+import Tags from '../Tags/Tags'
 
 export default function Main() {
   return (
@@ -57,6 +58,7 @@ export default function Main() {
         <ContactDealer />
         <CustomerAdvisor />
         <FeaturedCars />
+        <Tags />
       </div>
     </main >
   )
