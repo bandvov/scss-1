@@ -8,6 +8,7 @@ import SpecificationListItem from '../SpecificationListItem/SpecificationListIte
 import SpecificationImage from '../SpecificationImage/SpecificationImage'
 import ContactDealer from '../ContactDealer/ContactDealer'
 import CustomerAdvisor from '../CustomerAdvisor/CustomerAdvisor'
+import FeaturedCars from '../FeaturedCars/FeaturedCars'
 
 export default function Main() {
   return (
@@ -55,6 +56,7 @@ export default function Main() {
         <SpecialOffer />
         <ContactDealer />
         <CustomerAdvisor />
+        <FeaturedCars />
       </div>
     </main >
   )

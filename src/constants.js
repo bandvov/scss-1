@@ -67,3 +67,24 @@ export const SPECIFICATION_ITEMS = [
     value: "4 WD"
   },
 ]
+
+export const FEATURED_CARS = [
+  {
+    src: 'https://assets-global.website-files.com/60ce1b7dd21cd517bb39ff20/61a7aef223e62f330b9203a7_tesla-model-x.png',
+    name: 'Tesla Model X',
+    price: '111111',
+    url: '#',
+  },
+  {
+    src: 'https://tsk.ua/datacache/f/1/e/2/5/f1e255c2118d4fa2846020a7468b74ba5585a959.jpeg',
+    name: 'Tesla Model Y',
+    price: '222222',
+    url: '#',
+  },
+  {
+    src: 'https://images.frandroid.com/wp-content/uploads/2019/11/tesla-model-s-frandroid.png',
+    name: 'Tesla Model M',
+    price: '333333',
+    url: '#',
+  },
+]
