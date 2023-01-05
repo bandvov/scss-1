@@ -107,3 +107,12 @@ export const TAGS = [
     url: '?tag=tesla-x'
   },
 ]
+
+export const RECOMENDED_ITEMS = [
+  { url: '#1', title: 'Tesla SV', category: "electric car", price: 123000, ribbons: ["Hello", "New"] },
+  { url: '#2', title: 'Tesla X', category: "Battery", price: 123000, ribbons: ["Hello"] },
+  { url: '#3', title: 'Tesla Y', category: "electric car", price: 123000 },
+  { url: '#4', title: 'Tesla Y', category: "electric car", price: 123000, },
+  { url: '#5', title: 'Tesla Y', category: "electric car", price: 123000, ribbons: ["Hello"] },
+  { url: '#6', title: 'Tesla Y', category: "electric car", price: 123000, ribbons: ["Hello"] },
+]

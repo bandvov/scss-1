@@ -1,0 +1,39 @@
+.recomended__item {
+  text-decoration: none;
+  height: 400px;
+  display: grid;
+  align-items: end;
+  grid-template-rows: auto  1fr;
+
+  gap: 8px;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.recomended__item__title,
+.recomended__item__category,
+.recomended__item__price {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em; 
+  color: #FFFFFF;
+}
+
+.recomended__item__category {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+}
+.recomended__item__price {
+  color: #FA3C45;
+}
