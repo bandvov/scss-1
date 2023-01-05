@@ -11,3 +11,7 @@
   color:#FA3C45;
   -o-border-radius:24px;
 }
+.tag__item:hover {
+cursor: pointer;
+box-shadow: 0 0 3px 0 red;
+}
