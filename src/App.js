@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Main from './components/Main/Main';
 import RecomendedItems from './components/RecomendedItems/RecomendedItems';
+import SubscribeNewsLetter from './components/SubsribeNewsLetter/SubscribeNewsLetter';
 import Title from './components/Title/Title';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Title />
       <Main />
       <RecomendedItems />
+      <SubscribeNewsLetter />
       <Footer />
     </div>
   );

@@ -1,0 +1,59 @@
+.subscribe__news__letter__section {
+  margin: 0 104px;
+  text-align: center;
+  padding: 120px 0 102px ;
+}
+.subscribe__news__letter__section__header,
+.subscribe__news__letter__section__subheader,
+.subscribe__news__letter__section__form__label__text,
+.subscribe__news__letter__section__form__label__input::placeholder {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: var(--black-1);
+  margin-top:0;
+  margin-bottom: 24px;
+}
+.subscribe__news__letter__section__subheader {
+  font-weight: 400;
+  font-size: 16px;
+  color: #92929D;
+  margin-bottom: 56px;
+}
+.subscribe__news__letter__section__form {
+  margin: 0 200px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-rows: 1fr;
+  gap: 16px;
+  height: max-content;
+}
+.subscribe__news__letter__section__form__label {
+display: grid;
+grid-template-rows: 1fr;
+gap: 20px;
+}
+.subscribe__news__letter__section__form__label__text {
+  margin: 0;
+  justify-self: start;
+  font-weight: 600;
+  font-size: 16px;
+  color: #11142D;
+}
+
+.subscribe__news__letter__section__form__label__input {
+  background: #FFFFFF;
+  padding: 16px;  
+  border: 1px solid #ECF2FE;
+  border-radius: 8px;
+}
+.subscribe__news__letter__section__form__label__input::placeholder {
+font-weight: 400;
+font-size: 16px;
+color: #9A9AB0;
+text-align:left;
+}
