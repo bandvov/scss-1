@@ -3,13 +3,14 @@ import Section from '../Section/Section'
 import MainPhoto from '../MainPhoto/MainPhoto'
 import SpecialOffer from '../SpecialOffer/SpecialOffer'
 import styles from './Main.module.scss'
-import { SPECIFICATION_ITEMS } from '../../constants'
+import { FEATURE_ITEMS, SPECIFICATION_ITEMS } from '../../constants'
 import SpecificationListItem from '../SpecificationListItem/SpecificationListItem'
 import SpecificationImage from '../SpecificationImage/SpecificationImage'
 import ContactDealer from '../ContactDealer/ContactDealer'
 import CustomerAdvisor from '../CustomerAdvisor/CustomerAdvisor'
 import FeaturedCars from '../FeaturedCars/FeaturedCars'
 import Tags from '../Tags/Tags'
+import FeaturedItemIcon from '../FeaturedItemIcon/FeaturedItemIcon'
 
 export default function Main() {
   return (
@@ -44,7 +45,7 @@ export default function Main() {
             padding: '0'
           }}>
             {SPECIFICATION_ITEMS.map((item, index) => {
-              const withUnderscore = index > 8
+              const withUnderscore = index < 9
               return <SpecificationListItem
                 withUnderscore={withUnderscore}
                 image={<SpecificationImage />}
@@ -52,6 +53,24 @@ export default function Main() {
             })}
           </ul>
         </Section>
+        <Section title="Feature">
+          <ul style={{
+            display: 'grid',
+            gridTemplateColumns: "1fr 1fr 1fr",
+            columnGap: '48px',
+            margin: '0',
+            padding: '0'
+          }}>
+            {FEATURE_ITEMS.map((item) => {
+
+              return <SpecificationListItem
+                withUnderscore={false}
+                image={<FeaturedItemIcon />}
+                name={item} />
+            })}
+          </ul>
+        </Section>
+
       </section>
       <div className={styles.side__content} >
         <SpecialOffer />

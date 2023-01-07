@@ -116,3 +116,17 @@ export const RECOMENDED_ITEMS = [
   { url: '#5', title: 'Tesla Y', category: "electric car", price: 123000, ribbons: ["Hello"] },
   { url: '#6', title: 'Tesla Y', category: "electric car", price: 123000, ribbons: ["Hello"] },
 ]
+export const FEATURE_ITEMS = [
+  'Airbags',
+  'Alloy Wheel',
+  'Bluetooth',
+  'Immobilizer',
+  'MP3',
+  'Navigation System',
+  'Sport Package',
+  'Electric Side Mirror',
+  'Parking Sensor',
+  'Streaming Services',
+  'Superchargers',
+  'The Key'
+]
