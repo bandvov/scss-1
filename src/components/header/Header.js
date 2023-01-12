@@ -3,12 +3,13 @@ import NavMenu from '../NavMenu/NavMenu'
 import styles from './Header.module.scss'
 import { Link } from 'react-router-dom'
 import NavMenuAction from '../NavMenuAction/NavMenuAction'
+import Logo from '../Logo/Logo'
 
 export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.navcontainer}>
-        <Link className={styles.logo} to="/">Logoipsum</Link>
+        <Logo />
         <NavMenu />
         <NavMenuAction />
       </div>
