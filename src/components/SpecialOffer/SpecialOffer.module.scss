@@ -12,7 +12,8 @@
   -ms-border-radius: var(--standard-border-radius);
   -o-border-radius: var(--standard-border-radius);
 }
-.special__offer h2,h3 {
+.special__offer h2,
+.special__offer h3 {
   margin: 0;
   color: var(--white);
   @include setFont();

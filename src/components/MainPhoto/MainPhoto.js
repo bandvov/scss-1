@@ -27,10 +27,12 @@ export default function MainPhoto() {
 
       {imagesArr.map((image, index) => {
         return <div onMouseEnter={() => setActiveImage(index)} className={styles.smallphoto}>
-          <img style={{
-            width: '100%',
-            objectFit: 'cover',
-          }}
+          <img
+            style={{
+              width: "100%",
+              height: '100%',
+              objectFit: 'contain',
+            }}
             {...image} />
         </div>
       })}

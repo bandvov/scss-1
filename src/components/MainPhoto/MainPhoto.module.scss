@@ -1,7 +1,7 @@
 .mainphoto {
   display: grid;
   grid-template-columns: [start] 1fr 1fr 1fr[end];
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr 240px;
   gap: 8px;
 }
 

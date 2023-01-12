@@ -1,6 +1,5 @@
-.ribbon {  
+.ribbon {
   padding: 3px 6px;
-  border: 1px solid red;
   font-weight: 600;
   font-size: 14px;
   line-height: 130%;
@@ -8,6 +7,12 @@
   color: #FA3C45;
   width: max-content;
   background: #F6F7FB;
-  border-radius: 6px;
   margin-bottom: 5px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-style: normal;
+  text-align: center;
 }
