@@ -1,0 +1,35 @@
+.footer__list__title,
+.footer__copyright {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+}
+.footer__list__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer__copyright {
+  font-weight: 400;
+}
+.footer__list__items,.footer__list__items__left {
+  display: grid;
+  gap:12px;
+  text-align: center;  
+}
+.footer__list__items__left {
+  text-align: left;
+}
+.footer__list__item{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  color: #FFFFFF;
+}

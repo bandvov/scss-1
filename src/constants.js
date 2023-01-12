@@ -130,3 +130,31 @@ export const FEATURE_ITEMS = [
   'Superchargers',
   'The Key'
 ]
+
+export const FOOTER_COMPANY_ITEMS = {
+  title: "Company",
+  items: [
+    { title: "Home", url: '/home' },
+    { title: "Showroom", url: '/showroom' },
+    { title: "FAQ", url: '/faq' },
+    { title: "Blog", url: '/blog' },
+    { title: "Contact Us", url: '/contact-us' },
+  ]
+}
+export const SOCIAL_ITEMS = {
+  title: "Social",
+  items: [
+    { title: "facebook", url: '#' },
+    { title: "Instagram", url: '#' },
+    { title: "Youtube", url: '#' },
+    { title: "Twitter", url: '#' },
+    { title: "Linkedin", url: '#' },
+  ]
+}
+export const CONTACT_ITEMS = {
+  items: [
+    { title: '221 B Santa Monica, Los Angeles', url: '#' },
+    { title: '(+1) 923 2341 22', url: 'tel:#' },
+    { title: 'contact@tanahairstudio.com', url: 'mailto:contact@tanahairstudio.com' }
+  ]
+}
